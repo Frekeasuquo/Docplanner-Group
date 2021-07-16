@@ -44,6 +44,7 @@ html, body {
     padding: 0px 0px;
 }
 
+
 .main-nav ul li a {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,6 +52,7 @@ html, body {
     font-size: 15px;
     padding: 10px;
     text-decoration: none;
+    
 }
 
 .main-nav ul li ul {
@@ -78,15 +80,25 @@ html, body {
     padding: 8px 14px;
 }
 /*Pseudo class*/
-.main-nav ul li a:active{
-    color: #00ccb1 !important;
+.main-nav ul li a:link {
+    color: gray;
 }
+
+/*.main-nav ul li a:visited {
+    color: #00ccb1;
+}*/
+
 .main-nav ul li a:hover {
-    color: #00b39b !important;
+    color: #00ccb1;
 }
+
+.main-nav ul li a:active {
+    color: #00ccb1;
+}
+
 .main-nav ul li ul li a:hover {
     background: #fff;
-    color: #00ccb1 !important;
+    color: #00ccb1;
 }
 
 /*footer*/
@@ -290,6 +302,7 @@ html, body {
     letter-spacing: 0.3px;
     color: #fff;
     font-weight: 300;
+    font-size: 20px;
     margin: 0;
 }
 
@@ -695,4 +708,40 @@ html, body {
     font-size: 2.1428571429em;
     color: #333;
     margin-bottom: .75em;
+}
+
+/*Career section*/
+.career img{
+    width: 1251px;
+    height: 650px; 
+    
+}
+
+.career-inner {
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.career-lead-text {
+    max-width: 325px;
+    padding: 48px 40px 3.125em 3.125em;
+    background: #fff;
+    margin: -33em 3em;
+}
+
+.career-lead-text h1 {
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin: 0;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.career-lead-text p {
+    line-height: 1.75;
+    margin: 1.6em 0;
 }
